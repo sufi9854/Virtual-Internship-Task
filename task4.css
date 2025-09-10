@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 40px;
+}
+
+.timeline-wrapper {
+  background: #fff; /* white background */
+  border-radius: 16px;
+  padding: 40px 20px;
+  max-width: 100%;
+  margin: 0 auto;
+  /* box-shadow: 0 8px 25px rgba(0,0,0,0.1); */
+}
+
+.timeline {
+  position: relative;
+}
+
+.timeline-line {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #007bff, #00c58e);
+  border-radius: 2px;
+}
+
+.timeline-items {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.timeline-item {
+  text-align: center;
+  flex: 1;
+  position: relative;
+}
+
+.timeline-item .dot {
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #007bff, #00c58e);
+  position: relative;
+  z-index: 2;
+  /* box-shadow: 0 4px 10px rgba(0,0,0,0.12); */
+}
+
+
+
+.timeline-item .card {
+  background: #fff;
+  /* padding: 20px; */
+  border-radius: 12px;
+  width: 70%;
+  margin: 50px auto 0;
+  /* box-shadow: 0 6px 18px rgba(0,0,0,0.08); */
+}
+
+.timeline-item .card h3 {
+  margin: 8px;
+  color: #1773d4;
+  font-size: 23px;
+  padding: 8px;
+}
+
+.timeline-item .card p {
+  margin-top: 8px;
+  font-size: 22px;
+  color: #636262;
+  font-weight: 200;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
